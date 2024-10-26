@@ -13,3 +13,18 @@ Preview the gif below to get a quick demo of github.dev in action.
 
 # Why?
 It’s a quick way to edit and navigate code. It's especially useful if you want to edit multiple files at a time or take advantage of all the powerful code editing features of Visual Studio Code when making a quick change. For more information, see our [documentation](https://github.co/codespaces-editor-help).
+
+!-- html fragment -->
+<div id="container"></div>
+
+// javascript fragment
+const container = document.getElementById('container');
+const button = googlePayClient.createButton({
+  buttonColor: 'default',
+  buttonType: 'buy',
+  buttonRadius: 4,
+  onClick: () => {},
+  allowedPaymentMethods: [] // use the same payment methods as for the loadPaymentData() API call
+});
+
+container.appendChild(button);
